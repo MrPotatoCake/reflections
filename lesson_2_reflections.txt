@@ -8,3 +8,8 @@ A:	The staging area is an intermediate space in between the working directory an
 	make a commit, all files you want in the commit go in there so they can be seperated from other files that
 	potentially may belong in a different commit. I think it is very useful because someone could make 10 files in the same program session with very few being related to each other and will likely need a way to seperate them.
 
+Q:	How can you use the staging area to make sure you have one commit per logical change?
+A:  You can group together edits on multiple files on the same commit so you don't have, for example, 3
+	commits which are both edits to 3 files which are closley related and have similar edits instead of just
+	1.
+
