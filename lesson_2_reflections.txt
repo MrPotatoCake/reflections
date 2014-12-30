@@ -13,3 +13,9 @@ A:  You can group together edits on multiple files on the same commit so you don
 	commits which are both edits to 3 files which are closley related and have similar edits instead of just
 	1.
 
+Q:	What are some situations when branches would be helpful in keeping your history organized? How would
+	branches help?
+A:	You may want to make different versions of a program without overiding the other ones completely.
+	Examples: You want to make it in a different language. You want to make different difficulties. You want
+	to have a main version of your program while on another branch you can test stuff for it.
+
