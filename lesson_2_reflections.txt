@@ -21,3 +21,7 @@ A:	You may want to make different versions of a program without overiding the ot
 
 Q:	How do the diagrams help you visualize the branch structure?
 A:	By showing you where they branch off and what parents each commit has.
+
+Q:	What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+A:  When you merge two branches together, it deletes things deleted in one branch even if it wasn't in the
+	other and adds things added in one branch even if it wasn't added in the other. It is a way of getting the two new features in the one game. We represent it in the diagram this way because the commit has two parents: the latest commit from the two branches.
