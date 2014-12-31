@@ -25,3 +25,7 @@ A:	By showing you where they branch off and what parents each commit has.
 Q:	What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 A:  When you merge two branches together, it deletes things deleted in one branch even if it wasn't in the
 	other and adds things added in one branch even if it wasn't added in the other. It is a way of getting the two new features in the one game. We represent it in the diagram this way because the commit has two parents: the latest commit from the two branches.
+
+Q:  What are th epros and cons of Git's automatic merging vs. always doing merges manually?
+A:	Doing merges manually all the time could be a pain, and git's automatic system makes it a lot easier. We
+	have to do it manually from time to time, but every once in a while is better than always.
