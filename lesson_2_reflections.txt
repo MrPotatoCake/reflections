@@ -19,3 +19,5 @@ A:	You may want to make different versions of a program without overiding the ot
 	Examples: You want to make it in a different language. You want to make different difficulties. You want
 	to have a main version of your program while on another branch you can test stuff for it.
 
+Q:	How do the diagrams help you visualize the branch structure?
+A:	By showing you where they branch off and what parents each commit has.
