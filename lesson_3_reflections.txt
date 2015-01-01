@@ -1,3 +1,12 @@
-Q:  When would you want to use a remote repository rather than keeping all your world local?
-A:  If you wanted to collaborate your code with other users and team up with other people, even if they lived a hundred miles
-    away from you, you can still work together.
+Q:  When would you want to use a remote repository rather than keeping all
+	your world local?
+A:  If you wanted to collaborate your code with other users and team up with
+	other people, even if they lived a hundred miles away from you, you can
+	still work together.
+
+Q: 	Why might you want to always pull changes manually rather than having Git
+	automatically stay up-to-date with your remote repository?
+A:	Git needs Internet access to pull files, so if it always did it
+	automatically we'd end up getting used to not doing it ourselves, and then
+	some day commit something without Internet and the project not making it
+	through.
