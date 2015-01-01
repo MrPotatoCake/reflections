@@ -10,3 +10,16 @@ A:	Git needs Internet access to pull files, so if it always did it
 	automatically we'd end up getting used to not doing it ourselves, and then
 	some day commit something without Internet and the project not making it
 	through.
+
+Q:	Describe the differences between forks, clones, and branches. When would
+	you use one instead of the other?
+A:	A fork is a copy on of someone else's project on GitHub on your own
+	profile. A clone is a copy of a GitHub project or a project on your local
+	repository which isn't saved on your GitHub account, but rather on your
+	system. A branch is when a project breaks off in a different direction
+	and gets seperate commits from the rest of the project and has nothing to
+	do with GitHub. You use a fork when you want to make some edits to an
+	existing GitHub project easily. You use clone normally to make bigger
+	edits to a GitHub project, and you would use branches if you wanted to
+	experiment different things in your project like different languages
+	and difficulties, etc.
