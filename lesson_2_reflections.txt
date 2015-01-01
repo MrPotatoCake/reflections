@@ -1,31 +1,45 @@
 Q:	What happens when you initialize a repository? Why do you need to do it?
-A:	It puts a git repository into the directory you initialized. You need to do it because it is the only way 
-	to make a git repository?
+A:	It puts a git repository into the directory you initialized. You need to
+	do it because it is the only way to make a git repository.
 
-Q:	How is the staging area different from the working directory and the repository? What value do you think
- 	it offers?
-A:	The staging area is an intermediate space in between the working directory and the repository. Before you
-	make a commit, all files you want in the commit go in there so they can be seperated from other files that
-	potentially may belong in a different commit. I think it is very useful because someone could make 10 files in the same program session with very few being related to each other and will likely need a way to seperate them.
+Q:	How is the staging area different from the working directory and the
+	repository? What value do you think it offers?
+A:	The staging area is an intermediate space in between the working directory
+	and the repository. Before you make a commit, all files you want in the 
+	commit go in there so they can be seperated from other files that
+	potentially may belong in a different commit. I think it is very useful
+	because someone could make 10 files in the same program session with very
+	few being related to each other and will likely need a way to seperate
+	them.
 
-Q:	How can you use the staging area to make sure you have one commit per logical change?
-A:  You can group together edits on multiple files on the same commit so you don't have, for example, 3
-	commits which are both edits to 3 files which are closley related and have similar edits instead of just
-	1.
+Q:	How can you use the staging area to make sure you have one commit per
+	logical change?
+A:  You can group together edits on multiple files on the same commit so you
+	don't have, for example, 3 commits which are both edits to 3 files which
+	are closley related and have similar edits instead of just 1 commit.
 
-Q:	What are some situations when branches would be helpful in keeping your history organized? How would
-	branches help?
-A:	You may want to make different versions of a program without overiding the other ones completely.
-	Examples: You want to make it in a different language. You want to make different difficulties. You want
-	to have a main version of your program while on another branch you can test stuff for it.
+Q:	What are some situations when branches would be helpful in keeping your
+	history organized? How would branches help?
+A:	You may want to make different versions of a program without overiding the
+	other ones completely. Examples: You want to make it in a different
+	language. You want to make different difficulties. You want
+	to have a main version of your program while on another branch you can
+	test stuff for it.
 
 Q:	How do the diagrams help you visualize the branch structure?
 A:	By showing you where they branch off and what parents each commit has.
 
-Q:	What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
-A:  When you merge two branches together, it deletes things deleted in one branch even if it wasn't in the
-	other and adds things added in one branch even if it wasn't added in the other. It is a way of getting the two new features in the one game. We represent it in the diagram this way because the commit has two parents: the latest commit from the two branches.
+Q:	What is the result of merging two branches together? Why do we represent
+	it in the diagram the way we do?
+A:  When you merge two branches together, it deletes things deleted in one
+	branch even if it wasn't in the other and adds things added in one branch
+	even if it wasn't added in the other. It is a way of getting multiple new
+	features in the one program safely. We represent it in the diagram this
+	way because the commit has two parents: the latest commit from the two
+	branches.
 
-Q:  What are th epros and cons of Git's automatic merging vs. always doing merges manually?
-A:	Doing merges manually all the time could be a pain, and git's automatic system makes it a lot easier. We
-	have to do it manually from time to time, but every once in a while is better than always.
+Q:  What are the pros and cons of Git's automatic merging vs. always doing
+	merges manually?
+A:	Doing merges manually all the time could be a pain, and git's automatic
+	system makes it a lot easier. We have to do it manually from time to time,
+	but every once in a while is better than always.
