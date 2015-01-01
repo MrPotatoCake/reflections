@@ -1,28 +1,43 @@
-Q:	How did viewing a diff between two versions of a file help you see the bug that was introduced?
-A:	It showed the difference between the past version without a bug and the new version with the bug without 	 me having to go through both files entirely.
+Q:	How did viewing a diff between two versions of a file help you see the
+	bug that was introduced?
+A:	It showed the difference between the past version without a bug and
+	the new version with the bug without me having to go
+	through both files entirely.
 
-Q:  How could having easy access to the entire history of a file make you a more efficient programmer in the 
-	long term?
-A:	I would be able to look all the way back to see how my file was in the past so I could change it back if I
-	ever needed to.
+Q:  How could having easy access to the entire history of a file make you
+	a more efficient programmer in the long term?
+A:	I would be able to look all the way back to see how my file was in
+	the past so I could change it back if I	ever needed to.
 
-Q:	What do you think are the pros and cons of manually choosing when to creat a commit, like you do in Git,
-	vs having versions automatically saved, like Google Docs does?
-A:	If you have something autosaving every second, you'd have a rather cluttered file history that's difficult
-	to understand, however having autosave would be useful in case your computer crashes or you accidentaly close the file or something.
+Q:	What do you think are the pros and cons of manually choosing when to
+	create a commit, like you do in Git, vs having versions
+	automatically saved, like Google Docs does?
+A:	If you have something autosaving every second, you'd have a rather
+	cluttered file history that's difficult	to understand, however
+	having autosave would be useful in case your computer crashes or you
+	accidentaly close the file or something.
 
-Q:	Why do you think some version control systems, like Git, allow saving multiple files in one commit, while
+Q:	Why do you think some version control systems, like Git, allow saving
+	multiple files in one commit, while
 	others, like Google Docs, treat each file seperately?
-A:	Because Git is used mainly for programming, and it's expected to have files which need tracking, while in
-	Google Docs, it's mostly just text documents, and it's not required.
+A:	Because Git is used mainly for programming, and it's expected to have
+	files which need tracking, while in Google Docs, it's mostly 
+	just text documents, and it's not required.
 
-Q:	How can you use the commands git log and git diff to view the history of files?
-A:	Using git log will show you all the commits on the repository, their dates, who did them and the commit 	note. Git diff will show you the differences between two commits using the IDs from the log. You can use
-	them to view the history of files by using git log to see all the commits and git diff to see what's different in them and where.
+Q:	How can you use the commands git log and git diff to view the history of
+	files?
+A:	Using git log will show you all the commits on the repository, their
+	dates, who did them and the commit note. Git diff will show you the 
+	differences between two commits using the IDs from the log. You can use
+	them to view the history of files by using git log to see all
+	the commits and git diff to see what's different in them and where.
 
-Q:  How might using version control make you more confident to make changes that could break something?
-A:  Because I'd always have a clear way to the previous version and I wouldn't have to worry about forgetting 
-	how to fix a serious bug I may make.
+Q:  How might using version control make you more confident to make 
+	changes that could break something?
+A:  Because I'd always have a clear way to the previous version and I wouldn't 
+	have to worry about forgetting how to fix a serious bug I may make.
 
-Q:	Now that you have your workspace set up, what do you want to try using Git for?
-A:	I want to use it for all my programming and animation if I ever start again.
+Q:	Now that you have your workspace set up, what do you want to try using Git 
+	for?
+A:	I want to use it for all my programming and animation if I ever start
+	again.
