@@ -23,3 +23,8 @@ A:	A fork is a copy on of someone else's project on GitHub on your own
 	edits to a GitHub project, and you would use branches if you wanted to
 	experiment different things in your project like different languages
 	and difficulties, etc.
+
+Q:	What is the benefit of having a copy of the last known state of the remote
+	stored locally?
+A:	If you had to go offline for a while it would help to have a copy so you
+	can edit it anyway.
