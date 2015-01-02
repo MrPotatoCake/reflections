@@ -35,3 +35,12 @@ A:	You'd have to work together in the same room or constantly video call
 	or go back and forth sharing your files to one another, and it would just
 	get messy in someone's daily schedule. However, it would be easier to fix 
 	conflicts if you're face to face.
+
+Q:	When would you want to make changes in a seperate branch rather than
+	directly in master? What benefits does each approach have?
+A:	When you're making code that you're not sure will work or not, and
+	don't want to risk breaking your code, you might want to use a branch.
+	However, keeping it on master will avoid any future merge conflicts you
+	may come across.
+
+
