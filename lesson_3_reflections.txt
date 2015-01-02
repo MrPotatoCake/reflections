@@ -28,3 +28,10 @@ Q:	What is the benefit of having a copy of the last known state of the remote
 	stored locally?
 A:	If you had to go offline for a while it would help to have a copy so you
 	can edit it anyway.
+
+Q:	How would you collaborate without using Git or GitHub? What would be
+	easier, and what would be harder?
+A:	You'd have to work together in the same room or constantly video call
+	or go back and forth sharing your files to one another, and it would just
+	get messy in someone's daily schedule. However, it would be easier to fix 
+	conflicts if you're face to face.
